@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: com.stir.cscu9t4practical1.CycleEntryTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec <<< FAILURE!
+com.stir.cscu9t4practical1.CycleEntryTest.testGetTempo()  Time elapsed: 0.008 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <moderate> but was: <5.372222222222223>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.stir.cscu9t4practical1.CycleEntryTest.testGetTempo(CycleEntryTest.java:157)
+
+com.stir.cscu9t4practical1.CycleEntryTest.testGetTerrain()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <asphalt> but was: <Mixed Terrain>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.stir.cscu9t4practical1.CycleEntryTest.testGetTerrain(CycleEntryTest.java:145)
+
+com.stir.cscu9t4practical1.CycleEntryTest.testGetEntry()  Time elapsed: 0.014 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Alice cycled 3.0 km in 0:16:7 on 1/2/2003 on asphalt at moderate tempo
+> but was: <Alice cycled 3.0 km in 0:16:7 on 1/2/2003 at asphalt
+>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.stir.cscu9t4practical1.CycleEntryTest.testGetEntry(CycleEntryTest.java:169)
+
